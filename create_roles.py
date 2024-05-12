@@ -1,6 +1,4 @@
 from app import Role, User, db
-from flask_login import LoginManager, login_manager, login_user
-from flask_security import Security, SQLAlchemySessionUserDatastore
 
 def create_roles():
     admin =Role (id=1, name='Admin')
